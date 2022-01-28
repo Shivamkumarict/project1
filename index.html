@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selctors and More Designing</title>
+</head>
+<style>
+    body {
+        background-color: rgba(0, 0, 0, 0.897);
+        animation:color 2s ease 0.3s infinite forwards ;
+    }
+  @keyframes color{
+      0%{
+          background-color: rgba(28, 241, 28, 0.808);
+      }
+      50%{
+          background-color: rgba(48, 111, 248, 0.74);
+      }
+      100%{
+          background-color: rgba(241, 65, 241, 0.87);
+      }
+      
+  }
+    .container {
+        height: 220px;
+        width: 550px;
+        border: 2px solid rgb(59, 7, 245);
+        background: rgba(0, 0, 0, 0.719);
+        border-radius: 10px;
+        box-shadow: 3px 3px 12px 10px rgba(0, 0, 255, 0.781);
+        padding: 10px;
+        margin: 80px auto;
+        color: white;
+        font-family: cursive;
+    }
+
+    .btn {
+        /* width: 150px; */
+        /* height: 50px; */
+        border: 2px solid black;
+        background-color: rgba(100, 148, 237, 0.801);
+        font-size: 15px;
+        padding: 5px 19px;
+        margin: auto 10px;
+        border-radius: 5px;
+
+    }
+
+    .container a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .container input {
+        font-family: cursive;
+        color: white;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgba(100, 148, 237, 0.993);
+    }
+
+    .btn:visited {
+        background-color: rgba(248, 48, 48, 0.993);
+    }
+
+    .btn:active {
+        background-color: rgba(55, 255, 105, 0.863);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Welcome to NAMASTE WORLD!</h1>
+        <p>To get access to our Main Website you need to fill a form in which there is your name,
+            address, DOB, phone number, email had to be filled.To fill the form click on the
+            buttons given below.</p>
+        <a href="http://www.google.com" class="btn">Click Me</a>
+    </div>
+</body>
+
+</html>
